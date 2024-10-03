@@ -4,7 +4,7 @@ const entrada = prompt();
 let anoAtual = 2024;
 const nomeCompleto = 'Matheus Aliski'
 let idade = 17;
-const cursoFaculdade = 'me matar'
+const cursoFaculdade = 'anestesiologia'
 let cidadeAtual = 'SJP';
 
 console.log(`Ola eu sou o '${nomeCompleto} 'eu tenho '$(idade) "moro em" ${cidadeAtual}; quero`);
@@ -15,6 +15,31 @@ anoAtual = 2025;
 console.log(anoAtual);
 
 //agencia de viagens 
+
+console.log('------------------');
+console.log('      LOGIN       ');
+console.log('------------------');
+
+const loginCerto = 'Matheus';
+const senhaCerta = 1234;
+
+var login = entrada('Digite seu login:     ');
+var senha = entrada('Digite sua senha:     ');
+
+
+while(login != loginCerto) {
+console.log('login invalido');
+login = entrada('digite novamene seu login:     ');
+}
+
+
+while(senha != senhaCerta) {
+console.log('senha invalida');
+login = entrada('digite novamene sua senha:     ');
+
+
+}
+
 
 var nomeComprador = entrada('qual seu nome?');
 var cpf = entrada('Qual o seu cpf?');
